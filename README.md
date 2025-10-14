@@ -2,6 +2,8 @@
 
 Instantly translate Loom video captions to 18+ languages in real-time while watching videos.
 
+**[🏠 Home Page](https://try.rental-ninja.com)** | **[💻 GitHub Repository](https://github.com/rental-ninja/ninja-recaptions)**
+
 ## Features
 
 - **Real-time Translation**: Automatically translates captions as they appear on screen

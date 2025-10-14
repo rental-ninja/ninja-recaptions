@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Ninja ReCaptions",
+  "version": "1.0.0",
+  "description": "Instantly translate Loom video captions to 18+ languages in real-time. Auto-detect source language and seamlessly display translations while watching videos.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.loom.com/*",
+    "https://translate.googleapis.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.loom.com/share/*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}

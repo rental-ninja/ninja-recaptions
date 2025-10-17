@@ -92,7 +92,6 @@ You need to create these promotional images:
 You'll need to explain why you need each permission:
 
 - **storage**: "Store user language preferences and translation cache locally"
-- **activeTab**: "Access the current Loom video page to read and translate captions"
 - **host_permissions (loom.com)**: "Required to inject caption translation overlay into Loom video pages"
 - **host_permissions (translate.googleapis.com)**: "Access Google Translate API to translate caption text"
 
